@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Your Name</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Font Awesome for icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <style>
+    body { margin:0; font-family: 'Segoe UI', Arial, sans-serif; background:#f5f2ef; color:#2d3748; }
+    header, footer { background:#2d3748; color:#fff; padding:24px; }
+    header { display:flex; justify-content:space-between; align-items:center; }
+    nav a { color:#fff; text-decoration:none; margin:0 16px; font-weight:bold; }
+    .profile-container { text-align:center; margin-top:48px; }
+    .profile-img { width:180px; height:180px; border-radius:50%; border:5px solid #2d3748; object-fit:cover; }
+    h1 { font-size:2.5rem; margin:32px 0 16px 0; }
+    .desc { font-size:1.2rem; }
+    footer { text-align:center; position:relative; }
+    .social-icons a { color:#fff; margin:0 8px; font-size:1.4rem; }
+    .copyright { margin-top:16px; font-size:0.95rem; }
+  </style>
+</head>
+<body>
+<header>
+  <div style="font-size:1.6rem; font-weight:bold;">Your Name</div>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">About Me</a>
+    <a href="#">Education</a>
+    <a href="#">Professional Experience</a>
+    <a href="#">CV</a>
+    <a href="#">Contact Me</a>
+  </nav>
+</header>
+<div class="profile-container">
+  <img src="image.jpg" alt="Profile Photo" class="profile-img">
+  <h1>Hi! I'm Your Name</h1>
+  <div class="desc">A short line about your profession and passions.</div>
+</div>
+<footer>
+  <div class="social-icons">
+    <a href="#"><i class="fab fa-twitter"></i></a>
+    <a href="#"><i class="fab fa-instagram"></i></a>
+    <a href="#"><i class="fab fa-linkedin"></i></a>
+  </div>
+  <div class="copyright">&copy; 2025 Your Name. All rights reserved.</div>
+</footer>
+</body>
+</html>
